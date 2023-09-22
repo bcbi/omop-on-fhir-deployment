@@ -1,0 +1,2 @@
+CREATE SCHEMA cdm AUTHORIZATION omop_admin;
+

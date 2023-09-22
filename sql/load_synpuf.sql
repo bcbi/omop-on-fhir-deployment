@@ -1,0 +1,16 @@
+\copy public.care_site FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/care_site.csv' CSV DELIMITER E'\t';
+\copy public.cdm_source FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/cdm_source.csv' CSV DELIMITER E'\t';
+\copy public.condition_era FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/condition_era.csv' CSV DELIMITER E'\t';
+\copy public.condition_occurrence FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/condition_occurrence.csv' CSV DELIMITER E'\t';
+\copy public.cost FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/cost.csv' CSV DELIMITER E'\t';
+\copy public.death FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/death.csv' CSV DELIMITER E'\t';
+\copy public.device_exposure FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/device_exposure.csv' CSV DELIMITER E'\t';
+\copy public.location FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/location.csv' CSV DELIMITER E'\t';
+\copy public.measurement FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/measurement.csv' CSV DELIMITER E'\t';
+\copy public.observation FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/observation.csv' CSV DELIMITER E'\t';
+\copy public.observation_period FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/observation_period.csv' CSV DELIMITER E'\t';
+\copy public.payer_plan_period FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/payer_plan_period.csv' CSV DELIMITER E'\t';
+\copy public.person FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/person.csv' CSV DELIMITER E'\t';
+\copy public.procedure_occurrence FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/procedure_occurrence.csv' CSV DELIMITER E'\t';
+\copy public.provider FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/provider.csv' CSV DELIMITER E'\t';
+\copy public.visit_occurrence FROM '/Users/pstey/projects/omop-on-fhir-deployment-pipeline/synpuf1k531/data/visit_occurrence.csv' CSV DELIMITER E'\t';
