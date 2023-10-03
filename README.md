@@ -11,7 +11,7 @@ This repository is used to build a PostgreSQL database of synthetic data (i.e., 
 
 ## 2. Installation
 
-The installation process can be done on your local machine or a remote VM. The steps should be roughly identical.
+The installation process can be done on your local machine or a remote VM. The steps should be roughly identical. Note that the steps below will only (i.e., 2.1 through 2.7) only need to be run once as part of the initial install. 
 
 #### 2.1 Cloning this Repo
 
@@ -63,7 +63,23 @@ make vocab
 make data
 make f-tables
 ```
+#### 2.7 Building the Docker Container
+Now we are ready to build the Docker container that will house the FHIR server. This is done using by running the command below. 
+
+```
+make build-container
+```
+
+
+
 
 ## 3 Running the FHIR Server
+If everything has proceeded successfully, we can now start the container with the FHIR server using the command below.
+
+```
+make start
+```
+
+The container will be started in "detached" mode, so it will run in the background even when you disconnect from the VM.
 
 ## 4. To-do
