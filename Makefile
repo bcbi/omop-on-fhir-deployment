@@ -46,7 +46,7 @@ build-container:
 	cd omoponfhir-main-v531-r4 && docker build -t omoponfhir . 
 
 start: 
-	cd omoponfhir-main-v531-r4 && docker run --publish 8080:8080 omoponfhir
+	cd omoponfhir-main-v531-r4 && docker run --detach --publish 8080:8080 omoponfhir
 
 get-capabilities:
 	curl --request GET --location http://localhost:8080/fhir/metadata
